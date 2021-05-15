@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MarkAttendance"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:padding="10sp">
+
+        <TextView
+            android:id="@+id/textView11"
+            style="@style/mytitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Course" />
+
+        <Spinner
+            android:id="@+id/ma_spinner_course"
+            android:layout_width="112dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textView12"
+            style="@style/mytitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester" />
+
+        <Spinner
+            android:id="@+id/ma_spinner_sem"
+            android:layout_width="112dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_vstu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student's List" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All Present"
+            android:id="@+id/btn_all_present"
+            android:layout_gravity="center"/>
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_all_absent"
+            android:layout_height="wrap_content"
+            android:text="All Absent" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="20dp"
+
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal"
+        android:padding="10sp"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/ma_lv_viewstudents"
+            style="@style/mytitle"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="80dp">
+
+        <Button
+            android:id="@+id/btn_mark_attendance"
+            android:layout_height="wrap_content"
+            android:text="Mark Attendance"
+            android:layout_width="match_parent" />
+    </LinearLayout>
+
+
+</LinearLayout>

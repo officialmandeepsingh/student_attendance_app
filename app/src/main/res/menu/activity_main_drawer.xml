@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_addstu"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Add Student" />
+        <item
+            android:id="@+id/nav_viewstulist"
+            android:icon="@drawable/ic_viewstudents"
+            android:title="View Student List" />
+        <item
+            android:id="@+id/nav_informtoall"
+            android:icon="@drawable/ic_informtoall"
+            android:title="Inform to all" />
+        <item
+            android:id="@+id/nav_viewattendance"
+            android:icon="@drawable/ic_viewattendance"
+            android:title="View Attendance" />
+        <item
+            android:id="@+id/nav_updateattendance"
+
+            android:title="update Attendance" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_callus"
+                android:icon="@drawable/ic_call_black_24dp"
+                android:title="Call Us"/>
+        </menu>
+    </item>
+   <!-- <item android:title="Tools">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title=" Settings"/>
+        </menu>
+    </item>-->
+
+
+</menu>

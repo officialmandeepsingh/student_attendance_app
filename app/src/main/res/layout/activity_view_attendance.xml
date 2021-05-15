@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_attendance"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:padding="10px">
+
+        <TextView
+            android:id="@+id/textView11"
+            style="@style/mytitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:text="Course" />
+
+        <Spinner
+            android:id="@+id/ma_spinner_course"
+            android:layout_width="112dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textView12"
+            style="@style/mytitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester" />
+
+        <Spinner
+            android:id="@+id/ma_spinner_sem"
+            android:layout_width="112dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/fetch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp"
+        >
+        <TextView
+            android:id="@+id/stu_name"
+            style="@style/mytitle"
+            android:layout_marginLeft="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Name" />
+
+        <Spinner
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/ma_spinner_s_name"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+
+             />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Attendance"
+            android:textSize="8sp"
+            android:id="@+id/my_btn_view"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+    <ListView
+            android:id="@+id/view_list_attendance"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="3">
+
+        <TextView
+            android:layout_width="80dp"
+            android:text="186004"
+            android:layout_gravity="left"
+            android:id="@+id/mark_srollno"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_marginTop="15sp"
+            android:layout_width="150sp"
+            android:id="@+id/mark_sname"
+            android:layout_gravity="left"
+            android:text="Mandeep Singh"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="05sp"
+        android:text="P"
+        android:layout_weight="1"
+        android:id="@+id/mark_p"/>
+
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="05sp"
+        android:text="A"
+        android:layout_weight="1"
+        android:id="@+id/mark_a"/>
+
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="05sp"
+        android:text="L"
+        android:layout_weight="1"
+        android:id="@+id/mark_l"/>
+
+
+</LinearLayout>

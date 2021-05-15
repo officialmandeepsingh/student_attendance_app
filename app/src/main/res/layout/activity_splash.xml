@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splash"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewappname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STUDENT ATTENDANCE APP"
+        android:fontFamily="@font/aladin"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_marginTop="49dp"/>
+
+    <ImageView
+        android:layout_marginTop="35dp"
+        android:id="@+id/imageViewapplogo"
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        app:srcCompat="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/textViewdeveloper"
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developed By: Mandeep Singh"
+        android:fontFamily="@font/aladin"
+        android:textSize="24dp"
+        android:gravity="center"/>
+</LinearLayout>

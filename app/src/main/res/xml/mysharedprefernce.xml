@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="smsno"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:text="Set Default Sim"
+        android:title="Set Default Sim Number" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="autologin"
+        android:title="Do You want Auto Login" />
+</PreferenceScreen>
